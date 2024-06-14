@@ -1,5 +1,6 @@
 package lectures.part1basics
 
+import scala.+:
 import scala.annotation.tailrec
 
 object Recursion extends App {
@@ -67,4 +68,7 @@ object Recursion extends App {
   }
 
   println(fibonacci(9))
+
+  val num = "2";
+  println('a' + num + 'b');
 }
